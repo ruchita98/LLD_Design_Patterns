@@ -53,10 +53,11 @@ Note: in some languages one class can inherit from only one class, multiple inhe
 
 <img width="1290" alt="Screenshot 2023-10-22 at 6 34 35 PM" src="https://github.com/ruchita98/LLD_Design_Patterns/assets/28603713/09425ad8-c4db-4f51-9a5e-4f249ca55728">
 
-## Facade Design pattern
 
-## Strategy Design pattern
+## Facade Design pattern  
 
-## Decorator Design pattern
+## Strategy Design pattern  
 
-## visitor design pattern
+## Decorator Design pattern  
+
+## visitor design pattern  
