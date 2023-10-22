@@ -56,3 +56,7 @@ Note: in some languages one class can inherit from only one class, multiple inhe
 ## Facade Design pattern
 
 ## Strategy Design pattern
+
+## Decorator Design pattern
+
+## visitor design pattern
