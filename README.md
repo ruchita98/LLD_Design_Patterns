@@ -5,14 +5,14 @@ This repo contains sample design pattern codes for LLD design in CPP
 Each module is compatible to run on visual studio code for mac IDE  
 
 ## Observer pattern  
-It's basically a publisher - subscriber model  
+It's behavioral design pattern, basically a publisher - subscriber model  
 Usecase is to notify when   
 1. User logged in into multiple devices, we need to send update to all the logged in devices
 2. In a group, everyone of the members should be notified about any msg.
 
 ## Singleton pattern  
-When only one instance of the object should be maintained throughout lifetime of our program  
-one example could be Logger module  
+It's creational design pattern, when only one instance of the object should be maintained throughout lifetime of our program  .
+best example could be Logger module  .
 note: when creating the singleton object need to make it thread safe, else multiple thread accessing it concurrently can result in creating several instances, breaking our design pattern Goal.  
 
 ## Abstract factory  design pattern  
@@ -43,7 +43,7 @@ In the UML diagram below  :
 
 ## Adapter design pattern  
 
-This pattern is used when 2 modules are incompatible to work with each other, we fit in this Adapter in between to make it work.  
+This structural design pattern is used when 2 modules are incompatible to work with each other, we fit in this Adapter in between to make it work.  
 Client should be oblivious about ADAPTER so we inherit ADATPER from Target(that directly interacts with client, DataAnalyticsTool in our code) .
 
 Note: in some languages one class can inherit from only one class, multiple inheritance not supported, so we didn't inherit Adapter from Adaptee, rather passed Adaptee to Adapter module via composition (passed as parameter in initialization time), this is called Object Adapter pattern  .
