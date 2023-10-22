@@ -1,7 +1,8 @@
-# LLD_Design_Patterns
-This repo contains sample design pattern codes for LLD design
 
-Each module is compatible to run on visual studio code for mac IDE
+# LLD_Design_Patterns  
+This repo contains sample design pattern codes for LLD design in CPP  
+
+Each module is compatible to run on visual studio code for mac IDE  
 
 ## Observer pattern  
 It's basically a publisher - subscriber model  
@@ -24,5 +25,18 @@ best example: when u have a client code base that has both mac and windows relat
 
 
 
-## builder design pattern
+## builder design pattern  
+This is one of the creational design pattern.  
+Used when:  
+1. you need to build complex object  
+2. when building that object needs lots of configuration  
+
+In the UML diagram below  :  
+1. Product (Desktop in our code) needs lots of configuration of different components like monitor, keyboard etc.)   
+2. Builder is inferface (in code DesktopBuilder)  
+3. Concrete builders (in code DellDesktopBuilder and HpDesktopBuilder) build their own type of Desktop object and all this implementation is abstracted out in the Builder (in code DesktopBuilder) inferface  
+4.  Finally Director(in code DesktopDirector) is the head which takes as parameter different concrete builders and command them to build the final product  
+5.  Client (in code Client) needs to just talk to Director to build any Product  
+
+   <img width="918" alt="Screenshot 2023-10-22 at 12 15 42 PM" src="https://github.com/ruchita98/LLD_Design_Patterns/assets/28603713/c7e972de-d092-401f-a54a-c9d9effef64c">
 
