@@ -40,3 +40,10 @@ In the UML diagram below  :
 
    <img width="918" alt="Screenshot 2023-10-22 at 12 15 42 PM" src="https://github.com/ruchita98/LLD_Design_Patterns/assets/28603713/c7e972de-d092-401f-a54a-c9d9effef64c">
 
+
+## Adapter design pattern
+
+<img width="1020" alt="Screenshot 2023-10-22 at 5 57 24 PM" src="https://github.com/ruchita98/LLD_Design_Patterns/assets/28603713/805d7aec-0ba4-459c-943e-ef871029845a">
+
+
+<img width="1290" alt="Screenshot 2023-10-22 at 6 34 35 PM" src="https://github.com/ruchita98/LLD_Design_Patterns/assets/28603713/09425ad8-c4db-4f51-9a5e-4f249ca55728">
