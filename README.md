@@ -1,7 +1,8 @@
-# LLD_Design_Patterns
-This repo contains sample design pattern codes for LLD design in CPP
 
-Each module is compatible to run on visual studio code for mac IDE
+# LLD_Design_Patterns  
+This repo contains sample design pattern codes for LLD design in CPP  
+
+Each module is compatible to run on visual studio code for mac IDE  
 
 ## Observer pattern  
 It's basically a publisher - subscriber model  
