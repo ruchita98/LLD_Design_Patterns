@@ -44,10 +44,9 @@ In the UML diagram below  :
 ## Adapter design pattern  
 
 This pattern is used when 2 modules are incompatible to work with each other, we fit in this Adapter in between to make it work.  
+Client should be oblivious about ADAPTER so we inherit ADATPER from Target(that directly interacts with client, DataAnalyticsTool in our code) .
 
-Client should be oblivious about ADAPTER so we inherit ADATPER from Target(that directly interacts with client, DataAnalyticsTool in our code) 
-
-Note: in some languages one class can inherit from only one class, multiple inheritance not supported, so we didn't inherit Adapter from Adaptee, rather passed Adaptee to Adapter module via composition (passed as parameter in initialization time), this is called Object Adapter pattern
+Note: in some languages one class can inherit from only one class, multiple inheritance not supported, so we didn't inherit Adapter from Adaptee, rather passed Adaptee to Adapter module via composition (passed as parameter in initialization time), this is called Object Adapter pattern  .
 
 <img width="1020" alt="Screenshot 2023-10-22 at 5 57 24 PM" src="https://github.com/ruchita98/LLD_Design_Patterns/assets/28603713/805d7aec-0ba4-459c-943e-ef871029845a">
 
