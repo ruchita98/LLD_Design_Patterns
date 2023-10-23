@@ -58,6 +58,11 @@ Note: in some languages one class can inherit from only one class, multiple inhe
 
 ## Strategy Design pattern  
 
+when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime  
+
+![image](https://github.com/ruchita98/LLD_Design_Patterns/assets/28603713/ee9ab279-080f-4f7c-a024-d16aebf26667)
+
+
 ## Decorator Design pattern  
 
 ## visitor design pattern  
