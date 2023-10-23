@@ -66,3 +66,6 @@ when we have multiple algorithm for a specific task and client decides the actua
 ## Decorator Design pattern  
 
 ## visitor design pattern  
+
+## Delegate Design pattern  
+
